@@ -1,0 +1,269 @@
+% Welcome to the simple Undergraduate Complexity Research CV-resume template!
+% Please delete any sections that do not apply to your past experiences. We do not expect that applicants will have itmes for all of the sections included here. You can also rename or revise sections to best fit with your personal accomplishments.
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{multicol}
+\input{glyphtounicode}
+
+\usepackage{baskervillef}
+\usepackage[T1]{fontenc}
+
+\pagestyle{fancy}
+\fancyhf{} 
+\fancyfoot{}
+\setlength{\footskip}{10pt}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{0.0in}
+\addtolength{\evensidemargin}{0.0in}
+\addtolength{\textwidth}{0.0in}
+\addtolength{\topmargin}{0.2in}
+\addtolength{\textheight}{0.0in}
+
+
+\urlstyle{same}
+
+%\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{3pt}
+}{}{0em}{}[\color{black}\titlerule\vspace{-5pt}]
+
+\pdfgentounicode=1
+
+\newcommand{\resumeItem}[1]{
+  \item{
+    {#1 \vspace{-4pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      {\small #3} & {\small #4} \\
+    \end{tabular*}\vspace{-10pt}
+}
+
+\newcommand{\researchHeadingLong}[4]{
+    \vspace{-2pt}\item
+        \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1} \\
+        \textbf{#2} \\
+        #3 \\
+        #4 \\
+        \end{tabular*}\vspace{-10pt}
+}
+
+\newcommand{\researchHeading}[3]{
+    \vspace{-2pt}\item
+        \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1} \\
+        #2 \\
+        #3 \\
+        \end{tabular*}\vspace{-10pt}
+}
+
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-3pt}}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-2pt}}
+
+\begin{document}
+
+
+\begin{center}
+    {\LARGE Abdul Qadir} \\ \vspace{0pt}
+    \begin{multicols}{2}
+
+        \begin{flushleft}
+        \large{Lahore, 54590} \\
+        \large{Punjab, Pakistan} \\
+        \href{tel:+923095544409}{+92 309 5544409} \\
+        \end{flushleft}
+        
+        \begin{flushright}
+        % this could be LinkedIn, GitHub, or a personal website or social media account (if used for professional purposes)
+        \large{Github}: \href{https://github.com/abdul-510}{\underline{abdul-510}} \\
+        \large{LinkedIn}: \href{https://www.linkedin.com/in/abdulqadirarshad}{\underline{abdulqadirarshad}} \\
+        \large{Webiste}: \href{https://abdulqadir.me}{\underline{abdulqadir.me}} \\
+        % please ensure your email address is one you check
+        \large{Email}: \href{mailto:bitf20m510@gmail.com}{bitf20m510@gmail.com}
+        \end{flushright}
+    \end{multicols}
+\end{center}
+
+%-----------RESEARCH INTERESTS-----------
+\section{Research Interests}
+My research interests lie in the intersection of computer security and low-level systems. I am interested in the security vulnerabilities posed by systems, and how they can be exploited. For now, I am working on my FYP thesis that is about reproducing CVE-2019-2215 which is the Use After Free vulnerability in Android Kernel’s Binder IPC subsystem.
+
+%-----------EDUCATION-----------
+% Please list your current institution first and then past schools in reverse chronology. No need for GPA, etc. You do not need to include high school but may do so if there are accomplishments you would like to highlight.
+\section{Education}
+\resumeSubHeadingListStart
+
+    \resumeSubheading
+        {PUCIT - University of the Punjab}{September, 2020 -- Present}
+        {Bachelor of Science - Information Technology}{Lahore, Punjab, Pakistan}
+        \resumeItemListStart
+            \resumeItem{Expected graduation: July 2024}
+            \resumeItem{GPA: 3.20/4.0}
+        \resumeItemListEnd
+
+    \resumeSubheading
+        {Govt. Degree College, Sharaqpur Sharif}{2017 - 2020}
+        {Intermediate in Engineering}{Sharaqpur Sharif, Punjab, Pakistan}
+        \vspace*{1pt}
+        \resumeItemListStart
+            \resumeItem{Graduated with A+ grade.}
+        \resumeItemListEnd    
+
+\resumeSubHeadingListEnd
+
+
+%-----------RESEARCH EXPERIENCE-----------
+\section{Research Experience}
+% it is not expected that applicants have research experience but this section can include experience gained in a laboratory course, shadowing experiences, or group or independent research projects
+\resumeSubHeadingListStart
+
+\researchHeading
+        {Vulnerability Research and Exploit Development for Android Kernel}
+        {July, 2022 -- Present}
+        {PUCIT - University of the Punjab}
+        \resumeItemListStart
+            \small\resumeItem{Supervisor: Dr. Muhammad Arif Butt}
+            \resumeItem{Formulated the idea and initiated the research project}
+            \resumeItem{Worked on problems related to memory errors in binaries}
+            \resumeItem{Worked on reversing binaries using IDA Freeware}
+            \resumeItem{Worked on chroot jailbreak}
+            \resumeItem{Working on analysing Linux kernel}
+        \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%-----------PROFESSIONAL EXPERIENCE-----------
+\section{Professional Experience}
+% if you have been employed, do volunteer activities, or have held other formal or informal jobs, you can list them here.   
+\resumeSubHeadingListStart
+
+    \resumeSubheading
+        {Teaching Assistant (Data Structures \& Algorithms)}{June, 2023 -- Present}
+        {PUCIT - University of the Punjab}{Lahore, Punjab, Pakistan}
+        \resumeItemListStart
+            \resumeItem{Assisted students in the lab + other TA responsibilities}
+          \resumeItemListEnd
+    
+    \resumeSubheading
+        {Teaching Assistant (Object Oriented Programming)}{February, 2023 -- June, 2023}
+        {PUCIT - University of the Punjab}{Lahore, Punjab, Pakistan}
+        \resumeItemListStart
+            \resumeItem{Assisted students in the lab + other TA responsibilities}
+          \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%-----------RESEARCH PRESENTATIONS-----------
+% \section{Research Presentations} 
+% % It is not expected that applicants will have items for this section, but if you have presented or published research findings at, for example, a student research conference, please list those here.
+% \begin{itemize}[leftmargin=0.15in, label={}]
+%     \normalsize{\item{
+%     {citation in your preferred format -- include all authors who contributed}{} \\
+%     {citation in your preferred format -- include all authors who contributed}{} 
+% }}
+%  \end{itemize}
+
+
+%-----------SKILLS-----------
+\section{Skills}
+% This section can include programming or spoken languages, text editing and general software knowledge, certifications, version control or project management tools, or other skills that might be relevant. You can include as many or as few as you like: delete or add as needed.  
+\begin{itemize}[leftmargin=0.15in, label={}]
+    \normalsize{\item{
+     \textbf{Programming Languages}{: C, Python, Java, C\#, x86-64 Assembly} \\
+     \textbf{Security}{: Binary Exploitation, Reverse Engineering}\\
+     \textbf{Tools}{: IDA, GDB, PEDA} \\
+     \textbf{OS}{: Windows, Linux} \\
+    }}
+ \end{itemize}
+
+%-----------Projects-----------
+\section{Projects}
+\resumeSubHeadingListStart
+    
+        
+        \resumeSubheading
+            {Unix Shell}{C, Makefile}
+            {\href{https://github.com/alirazamumtaz/system-programming/tree/master/linux-shell}{https://github.com/alirazamumtaz/unix-shell}}{}
+            \resumeItemListStart
+                \resumeItem{An effort to write the *nix based shell to gain understanding of how shell works and how OS creates and handles processes and allows processes to communicate with each other through it's IPC interface}
+            \resumeItemListEnd
+        
+        \resumeSubheading
+            {Exploits Scripts}{Python, x86 Assembly}
+            {\href{https://github.com/alirazamumtaz/exploit-development}{https://github.com/alirazamumtaz/exploit-development}}{}
+            \resumeItemListStart
+                \resumeItem{Basic scripts that I have written to solve some exploitation challenges}
+            \resumeItemListEnd
+        
+            \resumeSubheading
+            {Hack Assembler}{C++}
+            {\href{https://github.com/alirazamumtaz/hack-assembler}{https://github.com/alirazamumtaz/hack-assembler}}{}
+            \resumeItemListStart
+                \small\resumeItem{A 16-bit machine language assembler for the 16-bit Hack Assembly Language. This was done as part of building a complete 16-bit computer during the Computer Organization Assembly Language Course}
+            \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%-----------COURSES-----------
+\section{Courses \& MOOCs}
+% This section can include courses you have taken, or MOOCs you have completed. You can remove or add sections as needed.
+\begin{itemize}[leftmargin=0.15in, label={}]
+    \normalsize{\item{
+     \textbf{Computer Systems Security}{: \href{https://dojo.pwn.college/cse466/}{pwn.college}} \\
+        \resumeItemListStart
+            \resumeItem{Shellcode Injection}
+            \resumeItem{Sandboxing}
+            \resumeItem{Reverse Engineering}
+            \resumeItem{Memory Errors}
+            \resumeItem{Race Conditions}
+            \resumeItem{Kernel Security}
+            \resumeItem{Program Exploitation}
+        \resumeItemListEnd
+    }}
+    
+ \end{itemize}
+
+%-----------EXTRACURRICULARS & VOLUNTEERING-----------
+\section{Extracurriculars \& Volunteering} 
+% If you have been involved in extracurricular activities or volunteer work, you can list them here.
+\resumeSubHeadingListStart
+    
+    \resumeSubheading
+        {Class Ambassador}{PUCIT - University of the Punjab}
+        {Google Developer Student Clubs}{2022 -- 2023}
+        \resumeItemListStart
+            \small\resumeItem{Faculty Contact: Assist. Prof. Abdul Mateen}
+            \resumeItem{Organized tech workshops and seminars}
+            \resumeItem{E.g. CodeFest, Hacktoberfest, AppFest, CodeBees, PUCON etc}
+        \resumeItemListEnd    
+
+\resumeSubHeadingListEnd
+
+\end{document}
